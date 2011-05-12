@@ -11,7 +11,7 @@ yt_service = gdata.youtube.service.YouTubeService()
 yt_service.ssl = False
 
 def usage():
-    print 'py [-t] [-u <video_id>] [-s <video_id>] [-d <video_id>]'
+    print 'py [-t <comma separated title and description>] [-u <video_id>] [-s <video_id>] [-d <video_id>]'
     
 def getPostURLAndToken(title, description):
     yt_service.developer_key = 'xxxxxxx' 
